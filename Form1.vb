@@ -13,4 +13,8 @@ Public Class Form1
 
 
     End Sub
+
+    Private Sub AlterarProdutoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlterarProdutoToolStripMenuItem.Click
+        FrmAtualizaProduto.Show()
+    End Sub
 End Class

@@ -27,6 +27,7 @@ Partial Class Form1
         CadastrarProdutoToolStripMenuItem = New ToolStripMenuItem()
         SairToolStripMenuItem = New ToolStripMenuItem()
         ToolStripMenuItem2 = New ToolStripMenuItem()
+        AlterarProdutoToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -41,7 +42,7 @@ Partial Class Form1
         ' 
         ' ToolStripMenuItem1
         ' 
-        ToolStripMenuItem1.DropDownItems.AddRange(New ToolStripItem() {CadastrarProdutoToolStripMenuItem, SairToolStripMenuItem})
+        ToolStripMenuItem1.DropDownItems.AddRange(New ToolStripItem() {CadastrarProdutoToolStripMenuItem, AlterarProdutoToolStripMenuItem, SairToolStripMenuItem})
         ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         ToolStripMenuItem1.Size = New Size(61, 20)
         ToolStripMenuItem1.Text = "Arquivo"
@@ -49,13 +50,13 @@ Partial Class Form1
         ' CadastrarProdutoToolStripMenuItem
         ' 
         CadastrarProdutoToolStripMenuItem.Name = "CadastrarProdutoToolStripMenuItem"
-        CadastrarProdutoToolStripMenuItem.Size = New Size(170, 22)
+        CadastrarProdutoToolStripMenuItem.Size = New Size(180, 22)
         CadastrarProdutoToolStripMenuItem.Text = "Cadastrar Produto"
         ' 
         ' SairToolStripMenuItem
         ' 
         SairToolStripMenuItem.Name = "SairToolStripMenuItem"
-        SairToolStripMenuItem.Size = New Size(170, 22)
+        SairToolStripMenuItem.Size = New Size(180, 22)
         SairToolStripMenuItem.Text = "Sair"
         ' 
         ' ToolStripMenuItem2
@@ -63,6 +64,12 @@ Partial Class Form1
         ToolStripMenuItem2.Name = "ToolStripMenuItem2"
         ToolStripMenuItem2.Size = New Size(49, 20)
         ToolStripMenuItem2.Text = "Sobre"
+        ' 
+        ' AlterarProdutoToolStripMenuItem
+        ' 
+        AlterarProdutoToolStripMenuItem.Name = "AlterarProdutoToolStripMenuItem"
+        AlterarProdutoToolStripMenuItem.Size = New Size(180, 22)
+        AlterarProdutoToolStripMenuItem.Text = "Alterar Produto"
         ' 
         ' Form1
         ' 
@@ -87,4 +94,5 @@ Partial Class Form1
     Friend WithEvents CadastrarProdutoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SairToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents AlterarProdutoToolStripMenuItem As ToolStripMenuItem
 End Class
