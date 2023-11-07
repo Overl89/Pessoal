@@ -24,3 +24,4 @@ C:\Users\vando\source\repos\CadProdutos\CadProdutos\bin\Debug\net6.0-windows\run
 C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.vbproj.AssemblyReference.cache
 C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.vbproj.CopyComplete
 C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.FrmAtualizaProduto.resources
+C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.FrmDelProduto.resources
