@@ -16,4 +16,8 @@ Public Class FrmDelProduto
         MsgBox("Produto Atualizado com Sucesso!!")
         SQlConn.Close()
     End Sub
+
+    Private Sub FrmDelProduto_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

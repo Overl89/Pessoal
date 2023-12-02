@@ -25,3 +25,4 @@ C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\Cad
 C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.vbproj.CopyComplete
 C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.FrmAtualizaProduto.resources
 C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.FrmDelProduto.resources
+C:\Users\vando\source\repos\CadProdutos\CadProdutos\obj\Debug\net6.0-windows\CadProdutos.FrmRelatorios.resources

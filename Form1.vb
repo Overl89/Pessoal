@@ -21,4 +21,8 @@ Public Class Form1
     Private Sub DeletarProdutoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeletarProdutoToolStripMenuItem.Click
         FrmDelProduto.Show()
     End Sub
+
+    Private Sub ProdutosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProdutosToolStripMenuItem.Click
+        FrmRelatorios.Show()
+    End Sub
 End Class

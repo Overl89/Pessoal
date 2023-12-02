@@ -29,12 +29,14 @@ Partial Class Form1
         AlterarProdutoToolStripMenuItem = New ToolStripMenuItem()
         SairToolStripMenuItem = New ToolStripMenuItem()
         ToolStripMenuItem2 = New ToolStripMenuItem()
+        RelatoriosToolStripMenuItem = New ToolStripMenuItem()
+        ProdutosToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' MenuStrip1
         ' 
-        MenuStrip1.Items.AddRange(New ToolStripItem() {ToolStripMenuItem1, ToolStripMenuItem2})
+        MenuStrip1.Items.AddRange(New ToolStripItem() {ToolStripMenuItem1, RelatoriosToolStripMenuItem, ToolStripMenuItem2})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Size = New Size(800, 24)
@@ -78,6 +80,19 @@ Partial Class Form1
         ToolStripMenuItem2.Size = New Size(49, 20)
         ToolStripMenuItem2.Text = "Sobre"
         ' 
+        ' RelatoriosToolStripMenuItem
+        ' 
+        RelatoriosToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ProdutosToolStripMenuItem})
+        RelatoriosToolStripMenuItem.Name = "RelatoriosToolStripMenuItem"
+        RelatoriosToolStripMenuItem.Size = New Size(71, 20)
+        RelatoriosToolStripMenuItem.Text = "Relatorios"
+        ' 
+        ' ProdutosToolStripMenuItem
+        ' 
+        ProdutosToolStripMenuItem.Name = "ProdutosToolStripMenuItem"
+        ProdutosToolStripMenuItem.Size = New Size(180, 22)
+        ProdutosToolStripMenuItem.Text = "Produtos"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -103,4 +118,6 @@ Partial Class Form1
     Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents AlterarProdutoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DeletarProdutoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RelatoriosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ProdutosToolStripMenuItem As ToolStripMenuItem
 End Class
